@@ -1,0 +1,1 @@
+This is used for finding answers to wordle.

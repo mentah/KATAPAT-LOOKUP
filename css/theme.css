@@ -1,0 +1,38 @@
+@media (prefers-color-scheme: light) {
+    :root{
+        --body-color:                      hsl(0, 0%, 13%);
+        --body-background-color:           hsl(0, 0%, 95%);
+        --html-background-color:           hsl(0, 0%, 87%);
+        --link-color:                      hsl(194, 76%, 49%);
+        --a-color-hover:                   hsl(194, 86%, 43%);
+        --select-focus-border:             hsl(194, 86%, 57%);
+        --input-button-primary-color:      hsl(194, 86%, 57%);
+        --input-primary-button:            hsl(0, 0%, 100%);
+        --code-background-color:           hsl(0, 0%, 95%);
+        --border-color-primary:            hsl(0, 0%, 88%);
+        --select-border:                   hsl(0, 0%, 82%);
+        --input-button-border:             hsl(0, 0%, 73%);
+        --input-button-focus-border-color: hsl(0, 0%, 53%);
+        --input-button-color:              hsl(0, 0%, 33%);
+        --input-button-focus-color:        hsl(0, 0%, 20%);
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root{
+        --body-color:                      hsl(0, 0%, 87%);
+        --body-background-color:           hsl(0, 0%, 5%);
+        --html-background-color:           hsl(0, 0%, 13%);
+        --link-color:                      hsl(194, 76%, 51%);
+        --line-color-hover:                hsl(194, 86%, 57%);
+        --select-focus-border:             hsl(194, 86%, 43%);
+        --input-primary-button:            hsl(0, 0%, 17%);
+        --code-background-color:           hsl(0, 0%, 5%);
+        --border-color-primary:            hsl(0, 0%, 12%);
+        --select-border:                   hsl(0, 0%, 18%);
+        --input-button-border:             hsl(0, 0%, 27%);
+        --input-button-focus-border-color: hsl(0, 0%, 47%);
+        --input-button-color:              hsl(0, 0%, 67%);
+        --input-button-focus-color:        hsl(0, 0%, 80%);
+    }
+}
