@@ -1,0 +1,21 @@
+ul {
+  column-count: 7;
+  list-style: none;
+}
+
+input.uppercase {
+  text-transform:uppercase;
+}
+div.search {
+  margin: auto;
+  width: 250px;
+}
+.header {
+  text-align: center;
+}
+input.letter {
+  width: 2.65em;
+}
+div.main.container {
+  min-height: 100vh;
+}
