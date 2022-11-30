@@ -100,7 +100,7 @@ if (suggestions.length === 0) {
     const item = suggestions[index];
     const listItem = document.createElement("li");
     const anchor = document.createElement("a");
-    anchor.href = `https://www.google.com/search?q=define%3A+${item}`;
+    anchor.href = `https://prpm.dbp.gov.my/cari1?keyword=${item}`;
     anchor.innerText = item;
     listItem.appendChild(anchor);
     list.appendChild(listItem);
